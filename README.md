@@ -24,6 +24,7 @@ To get started with this project, follow these steps:
    git clone https://github.com/yourusername/gym-personal-records.git
    cd gym-personal-records
    ```
+   
 2. **Backend Setup**:
    Navigate to the backend directory.
    Configure your PostgreSQL database settings in application.properties.
@@ -31,6 +32,7 @@ To get started with this project, follow these steps:
    ```bash
    /mvnw spring-boot:run
    ```
+   
 3. **Frontend Setup**:
    Navigate to the frontend directory.
    Install dependencies:
@@ -41,7 +43,10 @@ To get started with this project, follow these steps:
    ```bash
    npm start
    ```
-4. **Open in Browser**:
-   Open your web browser and go to http://localhost:3000 to view the application.
-  
+   
+4. **Verifying your Application**:
+   - **Backend**: Make sure your Spring Boot backend is running and listening for requests at the configured port (default is 8080).
+   - **Frontend**: Open your browser and navigate to http://localhost:4200 (or the port your React app is running on). Verify that the frontend is correctly interacting with the backend.
+
+
 
